@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  background-color: #1f1f1f !important;
+  background: url("../images/40724.jpg") no-repeat !important;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: #85d8ff !important;
+}
+
+h5 {
+  color: white !important;
+}
+
+p {
+  color: #d8d8d8;
+}
+
+li {
+  color: #9c9c9c
+}
+.menu {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding-left: 0;
+}
+
+.menu li {
+  flex-basis: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.menu li a {
+  color: #85d8ff;
+  border-radius: 4px;
+  background-size: 50px;
+  display: inline-block;
+  padding: 10px;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #85d8ff;
+  color: white;
+  transform: scale(1.2);
+}
